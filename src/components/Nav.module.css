@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  height: 80px;
+  background-color: #eeefff;
+}
+.list {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.list li {
+  width: fit-content;
+  padding: 10px;
+  margin: 0 20px;
+  font-size: 1.2rem;
+  opacity: 0.8;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+.list li:hover {
+  opacity: 1;
+  background-color: beige;
+}
+.list li a {
+  display: block;
+}
