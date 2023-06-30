@@ -17,6 +17,9 @@ export default function Nav() {
         <li>
           <Link to="/use-layout-effect">useLayoutEffect 활용</Link>
         </li>
+        <li>
+          <Link to="/use-reducer">useReducer 활용</Link>
+        </li>
       </ul>
     </div>
   );
